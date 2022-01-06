@@ -1,0 +1,13 @@
+name: lando-redis
+services:
+  custom:
+    type: redis:4
+    portforward: true
+    persist: true
+    config:
+      server: config/redis.conf
+
+# This is important because it lets lando know to test against the plugin in this repo
+# DO NOT REMOVE THIS!
+plugins:
+  "@lando/redis": ./../../
