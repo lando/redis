@@ -29,8 +29,6 @@ module.exports = {
         link: '/index.md',
       },
       '/config.md',
-      '/caveats.md',
-      '/extensions.md',
       {
         text: 'Guides',
         collapsible: true,
