@@ -1,6 +1,7 @@
 ---
 title: Redis Lando Plugin
 description: Add a highly configurable redis service to Lando for local development with all the power of Docker and Docker Compose.
+next: ./config.html
 ---
 
 # Redis
