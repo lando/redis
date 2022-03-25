@@ -51,7 +51,7 @@ services:
 
 ## Using a custom redis.conf
 
-You may need to override our [default redis server config](https://github.com/lando/lando/tree/master/plugins/lando-services/services/redis) with your own [custom redis config file](https://redis.io/topics/config).
+You may need to override our [default redis server config](https://github.com/lando/redis/tree/main/services/redis) with your own [custom redis config file](https://redis.io/topics/config).
 
 If you do this, you must use a file that exists inside your application and express it relative to your project root as shown below:
 
