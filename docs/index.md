@@ -56,7 +56,7 @@ mkdir -p ~/.lando/plugins
 # Install plugin
 # NOTE: Modify the "yarn add @lando/redis" line to install a particular version eg
 # yarn add @lando/redis@0.5.2
-docker run --rm -it -v ${HOME}/.lando/plugins:/plugins -w /tmp node:14-alpine sh -c \
+docker run --rm -it -v ${HOME}/.lando/plugins:/plugins -w /tmp node:16-alpine sh -c \
   "yarn init -y \
   && yarn add @lando/redis --production --flat --no-default-rc --no-lockfile --link-duplicates \
   && yarn install --production --cwd /tmp/node_modules/@lando/redis \
