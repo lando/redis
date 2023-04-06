@@ -1,5 +1,7 @@
 ## v0.8.0 - [April 6, 2023](https://github.com/lando/redis/releases/tag/v0.8.0)
   * Added Redis 7.x compatibility. [#12](https://github.com/lando/redis/issues/12)
+  * Updated Node version on default .lando.yml and docs. [PR #14](https://github.com/lando/redis/pull/14)
+  * Dependabot json5 bump. [PR #13](https://github.com/lando/redis/pull/13)
 
 ## v0.7.0 - [December 12, 2022](https://github.com/lando/redis/releases/tag/v0.7.0)
   * Added bundle-dependencies to release process.
