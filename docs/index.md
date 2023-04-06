@@ -18,6 +18,8 @@ services:
 
 ## Supported versions
 
+*   [7](https://hub.docker.com/_/redis)
+*   [7.0](https://hub.docker.com/_/redis)
 *   [6](https://hub.docker.com/_/redis)
 *   [6.0](https://hub.docker.com/_/redis)
 *   **[5](https://hub.docker.com/_/redis)** **(default)**

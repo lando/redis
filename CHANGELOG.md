@@ -1,3 +1,6 @@
+## v0.8.0 - [April 6, 2023](https://github.com/lando/redis/releases/tag/v0.8.0)
+  * Added Redis 7.x compatibility. [#12](https://github.com/lando/redis/issues/12)
+
 ## v0.7.0 - [December 12, 2022](https://github.com/lando/redis/releases/tag/v0.7.0)
   * Added bundle-dependencies to release process.
   * Fixed bug in plugin dogfooding test.
