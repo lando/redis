@@ -15,6 +15,8 @@ services:
     type: redis:5
     persist: false
     portforward: false
+    creds:
+      password: ''
     config:
       server: SEE BELOW
 ```
@@ -48,6 +50,20 @@ services:
     type: redis
     portforward: 6379
 ```
+
+## Setting a Password
+
+Later versions of Redis require a non-blank password being set; provide a password for your redis instance using the `creds` option:
+
+```yaml
+services:
+  myservice:
+    type: redis
+    creds:
+      password: 'womprat-slayer`
+```
+
+Note that you'll likely need to provide this password along with other Redis details to your application so it can connect to Redis. Typically this is done through environmental variables.
 
 ## Using a custom redis.conf
 
