@@ -13,9 +13,7 @@ module.exports = {
     confSrc: __dirname,
     persist: false,
     port: '6379',
-    creds: {
-      password: '',
-    },
+    password: '',
     defaultFiles: {
       server: 'redis.conf',
     },
@@ -28,11 +26,11 @@ module.exports = {
     constructor(id, options = {}) {
       options = _.merge({}, config, options);
       const baseCommand = 'docker-entrypoint.sh redis-server /usr/local/etc/redis/redis.conf';
-      const command = options.creds.password ?
-        `${baseCommand} --requirepass ${options.creds.password}` : baseCommand;
+      const command = _.isEmpty(options.password) ?
+        baseCommand : `${baseCommand} --requirepass ${options.password}`;
       const redis = {
         image: `redis:${options.version}`,
-        command: `docker-entrypoint.sh redis-server /usr/local/etc/redis/redis.conf --requirepass ${options.creds.password}`,
+        command: command,
         volumes: [
           `${options.confDest}/${options.defaultFiles.server}:${options.remoteFiles.server}`,
         ],

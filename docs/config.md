@@ -59,11 +59,12 @@ Later versions of Redis require a non-blank password being set; provide a passwo
 services:
   myservice:
     type: redis
-    creds:
-      password: 'womprat-slayer`
+    password: womprat-slayer
 ```
 
 Note that you'll likely need to provide this password along with other Redis details to your application so it can connect to Redis. Typically this is done through environmental variables.
+
+Do not use this option if you use a custom `redis.conf` that defines a default user password.
 
 ## Using a custom redis.conf
 
