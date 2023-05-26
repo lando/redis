@@ -28,6 +28,9 @@ lando ssh -s defaults -c "redis-server --version | grep v=2."
 # Should be able to connect to redis
 lando ssh -s defaults -c "redis-cli CONFIG GET databases"
 
+# Should be able to connect to redis w/password
+lando ssh -s password -c "redis-cli -a nerfherder CONFIG GET databases"
+
 # Should use the user specifiec patch version if given
 lando ssh -s patch -c "redis-server --version | grep v=2.8.22"
 

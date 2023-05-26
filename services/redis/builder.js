@@ -13,6 +13,7 @@ module.exports = {
     confSrc: __dirname,
     persist: false,
     port: '6379',
+    password: '',
     defaultFiles: {
       server: 'redis.conf',
     },
@@ -31,6 +32,8 @@ module.exports = {
           `${options.confDest}/${options.defaultFiles.server}:${options.remoteFiles.server}`,
         ],
       };
+      // Add in password.
+      if (!_.isEmpty(options.password)) redis.command = `${redis.command} --requirepass ${options.password}`;
       // Set persistence to true
       if (options.persist) redis.command = `${redis.command} --appendonly yes`;
       // Send it downstream
