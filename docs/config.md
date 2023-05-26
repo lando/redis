@@ -15,8 +15,7 @@ services:
     type: redis:5
     persist: false
     portforward: false
-    creds:
-      password: ''
+    password: ''
     config:
       server: SEE BELOW
 ```
