@@ -1,3 +1,8 @@
+## v0.10.0 - [July 3, 2023](https://github.com/lando/redis/releases/tag/v0.10.0)
+  * Removed bundle-dependencies and version-bump-prompt from plugin.
+  * Updated package to use prepare-release-action.
+  * Updated documentation to reflect new release process.
+
 ## v0.9.0 - [May 26, 2023](https://github.com/lando/redis/releases/tag/v0.9.0)
 * Added password configuration for the default user. [PR #20](https://github.com/lando/redis/pull/20)
 
