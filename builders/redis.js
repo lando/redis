@@ -2,6 +2,7 @@
 
 // Modules
 const _ = require('lodash');
+const path = require('path');
 
 // Builder
 module.exports = {
@@ -10,7 +11,7 @@ module.exports = {
     version: '5',
     supported: ['7', '7.0', '6', '6.0', '5', '5.0', '4', '4.0', '2.8'],
     patchesSupported: true,
-    confSrc: __dirname,
+    confSrc: path.join(__dirname, '..', 'config'),
     persist: false,
     port: '6379',
     password: '',
