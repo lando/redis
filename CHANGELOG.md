@@ -1,3 +1,6 @@
+## v1.0.0 - [December 7, 2023](https://github.com/lando/redis/releases/tag/v1.0.0)
+    * Dialed fully for `lando update`
+
 ## v0.11.0 - [November 21, 2023](https://github.com/lando/redis/releases/tag/v0.11.0)
 * Refactored directory structure. Updated to node 18. Isolated plugin testing. [#30](https://github.com/lando/redis/pull/30)
 
