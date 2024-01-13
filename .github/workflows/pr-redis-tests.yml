@@ -34,7 +34,7 @@ jobs:
           registry-url: https://registry.npmjs.org
           cache: npm
       - name: Install NPM dependencies
-        run: npm clean-install --prefer-offline --frozen-lockfile
+        run: npm clean-install --production --prefer-offline --frozen-lockfile
       - name: Setup lando ${{ matrix.lando-version }}
         uses: lando/setup-lando@v2
         with:
