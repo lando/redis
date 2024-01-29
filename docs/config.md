@@ -15,7 +15,7 @@ services:
     type: redis:5
     persist: false
     portforward: false
-    password: ''
+    password: 'pantheon'
     config:
       server: SEE BELOW
 ```
