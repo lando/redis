@@ -5,9 +5,9 @@ description: Learn how to configure the Lando Redis service.
 
 # Configuration
 
-Here are the configuration options, set to the default values, for this service. If you are unsure about where this goes or what this means, we *highly recommend* scanning the [services documentation](https://docs.lando.dev/config/services.html) to get a good handle on how the magicks work.
+Here are the configuration options, set to the default values, for this service. If you are unsure about where this goes or what this means, we *highly recommend* scanning the [services documentation](https://docs.lando.dev/core/v3/lando-service.html) to get a good handle on how the magicks work.
 
-Also note that the below options are in addition to the [build steps](https://docs.lando.dev/config/services.html#build-steps) and [overrides](https://docs.lando.dev/config/services.html#overrides) that are available to every service.
+Also note that the below options are in addition to the [build steps](https://docs.lando.dev/core/v3/lando-service.html#build-steps) and [overrides](https://docs.lando.dev/core/v3/lando-service.html#overrides) that are available to every service.
 
 ```yaml
 services:
@@ -67,7 +67,7 @@ Do not use this option if you use a custom `redis.conf` that defines a default u
 
 ## Using a custom redis.conf
 
-You may need to override our [default redis server config](https://github.com/lando/redis/tree/main/services/redis) with your own [custom redis config file](https://redis.io/topics/config).
+You may need to override our [default redis server config](https://github.com/lando/redis/tree/main/builders) with your own [custom redis config file](https://redis.io/docs/management/config/).
 
 If you do this, you must use a file that exists inside your application and express it relative to your project root as shown below:
 
