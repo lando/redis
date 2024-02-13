@@ -39,9 +39,9 @@
 # We need this so preview environments and the base site look ok on their own
 [[redirects]]
   from = "/"
-  to = "/redis"
+  to = "/plugins/redis"
   status = 200
 [[redirects]]
-  from = "/redis/*"
+  from = "/plugins/redis/*"
   to = "/:splat"
   status = 200
