@@ -67,7 +67,7 @@ Do not use this option if you use a custom `redis.conf` that defines a default u
 
 ## Using a custom redis.conf
 
-You may need to override our [default redis server config](https://github.com/lando/redis/tree/main/builders) with your own [custom redis config file](https://redis.io/docs/management/config/).
+You may need to override our [default redis server config](https://github.com/lando/redis/tree/main/builders) with your own [custom redis config file](https://redis.io/docs/latest/operate/oss_and_stack/management/config/).
 
 If you do this, you must use a file that exists inside your application and express it relative to your project root as shown below:
 
