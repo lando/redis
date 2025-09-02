@@ -1,0 +1,14 @@
+name: lando-redis-8
+services:
+  defaults:
+    type: redis:8
+  patch:
+    type: redis:8.0.1
+  password:
+    type: redis:8
+    password: nerfherder
+
+# This is important because it lets lando know to test against the plugin in this repo
+# DO NOT REMOVE THIS!
+plugins:
+  "@lando/redis": ./../../
