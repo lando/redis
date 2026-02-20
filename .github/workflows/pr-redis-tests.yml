@@ -12,10 +12,13 @@ jobs:
     strategy:
       matrix:
         leia-test:
+          - examples/2.x
           - examples/4.x
           - examples/5.x
           - examples/6.x
           - examples/7.x
+          - examples/7.4.x
+          - examples/8.x
           - examples/custom
         lando-version:
           - 3-edge

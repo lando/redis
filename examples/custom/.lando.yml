@@ -1,7 +1,7 @@
 name: lando-redis
 services:
   custom:
-    type: redis:4
+    type: redis:7.4
     portforward: true
     persist: true
     config:

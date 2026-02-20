@@ -1,11 +1,11 @@
-name: lando-redis-5
+name: lando-redis-7-4
 services:
   defaults:
-    type: redis:5
+    type: redis:7.4
   patch:
-    type: redis:5.0.13
+    type: redis:7.4.2
   password:
-    type: redis:5
+    type: redis:7.4
     password: nerfherder
 
 # This is important because it lets lando know to test against the plugin in this repo
