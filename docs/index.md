@@ -18,15 +18,22 @@ services:
 
 ## Supported versions
 
-*   [7](https://hub.docker.com/_/redis)
-*   [7.0](https://hub.docker.com/_/redis)
-*   [6](https://hub.docker.com/_/redis)
-*   [6.0](https://hub.docker.com/_/redis)
-*   **[5](https://hub.docker.com/_/redis)** **(default)**
-*   [5.0](https://hub.docker.com/_/redis)
-*   [4](https://hub.docker.com/_/redis)
-*   [4.0](https://hub.docker.com/_/redis)
-*   [2.8](https://hub.docker.com/_/redis)
+*   [8](https://hub.docker.com/_/redis)
+*   [8.6](https://hub.docker.com/_/redis)
+*   [8.4](https://hub.docker.com/_/redis)
+*   [8.2](https://hub.docker.com/_/redis)
+*   [8.0](https://hub.docker.com/_/redis)
+*   **[7.4](https://hub.docker.com/_/redis)** **(default)**
+*   [7.2](https://hub.docker.com/_/redis)
+*   [7](https://hub.docker.com/_/redis) *(legacy)*
+*   [7.0](https://hub.docker.com/_/redis) *(legacy)*
+*   [6](https://hub.docker.com/_/redis) *(legacy)*
+*   [6.0](https://hub.docker.com/_/redis) *(legacy)*
+*   [5](https://hub.docker.com/_/redis) *(legacy)*
+*   [5.0](https://hub.docker.com/_/redis) *(legacy)*
+*   [4](https://hub.docker.com/_/redis) *(legacy)*
+*   [4.0](https://hub.docker.com/_/redis) *(legacy)*
+*   [2.8](https://hub.docker.com/_/redis) *(legacy)*
 *   [custom](https://docs.lando.dev/services/lando-3.html#overrides)
 
 ## Patch versions

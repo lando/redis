@@ -12,7 +12,7 @@ Also note that the below options are in addition to the [build steps](https://do
 ```yaml
 services:
   myservice:
-    type: redis:5
+    type: redis:7.4
     persist: false
     portforward: false
     password: ''
