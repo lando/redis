@@ -47,6 +47,6 @@ To use a patch version, you can do something as shown below:
 ```yaml
 services:
   myservice:
-    type: redis:4.0.12
+    type: redis:7.4.2
 ```
 

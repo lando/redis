@@ -2,7 +2,7 @@
 
 This is the _official_ [Lando](https://lando.dev) plugin for [Redis](https://redis.io/). When installed it...
 
-* Allows users to run various `redis` versions
+* Allows users to run various `redis` versions including the latest Redis 8.x series
 
 Of course, once a user is running their Redis project with Lando they can take advantage of [all the other awesome development features](https://docs.lando.dev) Lando provides.
 
