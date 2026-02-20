@@ -1,5 +1,11 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Updated `vite` to v5.4.21 [#51](https://github.com/lando/redis/pull/51)
+* Updated `mdast-util-to-hast` to v13.2.1 [#52](https://github.com/lando/redis/pull/52)
+* Updated `lodash-es` to v4.17.23 [#53](https://github.com/lando/redis/pull/53)
+* Updated `lodash` to v4.17.23 [#54](https://github.com/lando/redis/pull/54)
+* Updated `@lando/leia` to v1.0.0-beta.4 [#56](https://github.com/lando/redis/pull/56)
+
 ## v1.2.3 - [December 6, 2024](https://github.com/lando/redis/releases/tag/v1.2.3)
 
 * Updated the version index.md to get Docuverse page to build correctly.
