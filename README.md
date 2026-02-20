@@ -13,7 +13,7 @@ Add a `redis` service to your Landofile
 ```yaml
 services:
   myservice:
-    type: redis
+    type: redis:7.4
 ```
 
 For more info you should check out the [docs](https://docs.lando.dev/redis):

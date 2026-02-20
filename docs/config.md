@@ -37,7 +37,7 @@ This option is pretty straightforward. Use `persist: true` to persist the cache'
 ```yaml
 services:
   myservice:
-    type: redis
+    type: redis:7.4
     portforward: true
 ```
 
@@ -46,7 +46,7 @@ services:
 ```yaml
 services:
   myservice:
-    type: redis
+    type: redis:7.4
     portforward: 6379
 ```
 
@@ -57,7 +57,7 @@ Later versions of Redis require a non-blank password being set; provide a passwo
 ```yaml
 services:
   myservice:
-    type: redis
+    type: redis:7.4
     password: womprat-slayer
 ```
 
@@ -87,7 +87,7 @@ Note that you can put your configuration files anywhere inside your application 
 ```yaml
 services:
   myservice:
-    type: redis
+    type: redis:7.4
     config:
       server: config/redis.conf
 ```
