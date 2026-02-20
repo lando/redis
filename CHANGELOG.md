@@ -1,5 +1,9 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Added support for Redis 8.x (`8`, `8.6`, `8.4`, `8.2`, `8.0`)
+* Added support for Redis `7.4` and `7.2`
+* Changed default version from `5` to `7.4`
+* Marked legacy versions: `7`, `7.0`, `6`, `6.0`, `5`, `5.0`, `4`, `4.0`, `2.8`
 * Updated `vite` to v5.4.21 [#51](https://github.com/lando/redis/pull/51)
 * Updated `mdast-util-to-hast` to v13.2.1 [#52](https://github.com/lando/redis/pull/52)
 * Updated `lodash-es` to v4.17.23 [#53](https://github.com/lando/redis/pull/53)
