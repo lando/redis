@@ -1,7 +1,7 @@
 {
   "name": "@lando/redis",
   "description": "A Lando plugin that provides a tight integration with Redis.",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "author": "Mike Pirog @pirog",
   "license": "MIT",
   "repository": "lando/redis",

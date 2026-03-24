@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.3.0 - [March 24, 2026](https://github.com/lando/redis/releases/tag/v1.3.0)
+
 * Added support for Redis 8.x (`8`, `8.6`, `8.4`, `8.2`, `8.0`)
 * Added support for Redis `7.4` and `7.2`
 * Changed default version from `5` to `7.4`
