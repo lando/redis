@@ -8,7 +8,7 @@ next: ./config.html
 
 [Redis](https://redis.io/) is an open source, in-memory and typed data structure store, used as a database, cache and message broker.
 
-You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/services/lando-3.html) top-level config in your [Landofile](https://docs.lando.dev/core/v3).
+You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/services/lando-3.html) top-level config in your [Landofile](https://docs.lando.dev/).
 
 ```yaml
 services:
@@ -49,4 +49,3 @@ services:
   myservice:
     type: redis:7.4.2
 ```
-

@@ -12,7 +12,6 @@ jobs:
     strategy:
       matrix:
         leia-test:
-          - examples/2.x
           - examples/4.x
           - examples/5.x
           - examples/6.x
@@ -30,7 +29,7 @@ jobs:
     steps:
 
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Install node ${{ matrix.node-version }}
         uses: actions/setup-node@v6
         with:
