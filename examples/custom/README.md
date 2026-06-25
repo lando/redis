@@ -23,7 +23,7 @@ Run the following commands to validate things are rolling as they should.
 
 ```bash
 # Should use the user specified version if given
-lando ssh -s custom -c "redis-server --version | grep v=4."
+lando ssh -s custom -c "redis-server --version | grep v=7.4"
 
 # Should persist data if specified
 docker inspect landoredis_custom_1 | grep appendonly
